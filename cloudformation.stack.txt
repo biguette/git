@@ -1,0 +1,4 @@
+aws cloudformation create-stack \
+  --stack-name biguette1-stack \
+  --template-body file://"C:\Users\bijou\OneDrive\Documents\AWS Training\git\my-firstec2-template1.yaml" \
+  --region us-west-1
